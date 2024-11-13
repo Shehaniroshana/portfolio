@@ -1,0 +1,104 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #121212;
+  color: white;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+  background: linear-gradient(315deg, rgb(38, 38, 39) 0%, rgb(0, 0, 0) 98%);
+  
+}
+
+.navbar-brand,
+.nav-link {
+  color: white !important;
+  font-size: 1.3em;
+}
+
+.navbar-brand:hover,
+.nav-link:hover {
+  color: #ff8c00 !important;
+}
+
+.video-background {
+  position: relative;
+  overflow: hidden;
+}
+
+.video-background video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.content {
+  text-align: center;
+  padding: 50px 0;
+  height: 300px;
+}
+
+.content h1 {
+  font-size: 3em;
+  margin-bottom: 1rem;
+}
+
+.content h4 {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.content img {
+  border-radius: 50%;
+  border: 5px solid #28221a;
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+}
+.text-justify,p {
+  text-align: justify;
+}
+
+.img01 {
+  width: 300px;
+  text-align: center;
+}
+.skillbar .progress {
+  height: 8px;
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.skillbar .progress-bar {
+  background-color: #2ff183;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.skillbar img {
+  width: 30px;
+  height: 30px;
+}
+
+.skillbar span {
+  font-weight: 500;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+.progress-bar{
+  background-color: #2ff183;
+  color: #000;
+  font-size: 1.2em;
+}
+.project-title{
+  padding: 10px;
+}
