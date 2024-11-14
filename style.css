@@ -11,13 +11,20 @@ html {
 
 
 .navbar {
-
   background: linear-gradient(315deg, rgb(38, 38, 39) 0%, rgb(0, 0, 0) 98%);
+}
+
+.navbar-brand{
+  font-size: 1.6em;
+  font-weight: 700;
+}
+.nav-link {
+  font-size: 1.3em;
+  transition: transform 0.3s ease;
 }
 
 .navbar-brand,
 .nav-link {
-  font-size: 1.3em;
   transition: transform 0.3s ease;
 }
 
@@ -45,7 +52,7 @@ html {
 .content {
   text-align: center;
   padding: 50px 0;
-  height: 300px;
+  height: 400px;
   transition: transform 0.3s ease;
 
 }
@@ -55,12 +62,12 @@ html {
 }
 
 .content h1 {
-  font-size: 3em;
-  margin-bottom: 1rem;
+  font-size: 3.2em;
+  margin-top: 80px;
 }
 
 .content h4 {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   margin-bottom: 2rem;
 }
 
@@ -97,8 +104,9 @@ html {
   
 }
 .card{
-margin-top: 10px;
+margin-top: 25px;
 object-fit: cover;
+transition: transform 0.3s ease;
 
 }
 .card-body{
@@ -114,5 +122,29 @@ object-fit: cover;
 }
 .progress-bar{
   background: linear-gradient(315deg, rgb(29, 222, 94) 0%, rgb(153, 1, 140) 98%);
-  color: #121212;
+  color: #063605;
+  font-weight: 600;
+}
+#ppadding{
+  padding: 0 50px;
+}
+.skill-icon {
+  width: 30px; 
+  height: auto;  
+  margin-right: 10px; 
+  vertical-align: middle; 
+}
+.pskill{
+  padding: 0 50px 20px 50px;
+}
+
+.card:hover{
+transform:scale(1.03) ;
+}
+.my-3{
+  transition: transform 0.4s ease;
+}
+.my-3:hover{
+  transform:scale(1.03) ;
+
 }
