@@ -5,20 +5,26 @@ body {
   padding: 0;
   margin: 0;
 }
+html {
+  scroll-behavior: smooth;
+}
+
 
 .navbar {
+
   background: linear-gradient(315deg, rgb(38, 38, 39) 0%, rgb(0, 0, 0) 98%);
-  
 }
 
 .navbar-brand,
 .nav-link {
   font-size: 1.3em;
+  transition: transform 0.3s ease;
 }
 
 .navbar-brand:hover,
 .nav-link:hover {
   color: #ff8c00 !important;
+  transform: scale(1.2);
 }
 
 .video-background {
@@ -40,6 +46,12 @@ body {
   text-align: center;
   padding: 50px 0;
   height: 300px;
+  transition: transform 0.3s ease;
+
+}
+
+.content:hover{
+  transform: scale(1.2);
 }
 
 .content h1 {
@@ -64,85 +76,43 @@ body {
 .img01 {
   width: 300px;
   text-align: center;
-}
-.skillbar .progress {
-  height: 8px;
-  background-color: #e0e0e0;
-  border-radius: 5px;
-  overflow: hidden;
+  transition: transform 0.3s ease;
 }
 
-.skillbar .progress-bar {
-  background: linear-gradient(315deg, rgb(95, 179, 66) 0%, rgb(2, 68, 9) 98%);
-  height: 100%;
-  border-radius: 5px;
+.img01:hover{
+  transform: scale(1.1);
 }
-
-.skillbar img {
-  width: 30px;
-  height: 30px;
-}
-
-.skillbar span {
+#ah4{
+  font: 2em sans-serif;
   font-weight: 500;
+  transition: transform 0.3s ease;
+
+}
+#ah4:hover{
+  transform: scale(1.1);
 }
 
-.btn {
-  text-decoration: none;
-  padding: 10px 20px;
-  border-radius: 10px;
-  margin-top: 1rem;
-  background: linear-gradient(315deg, rgb(39, 132, 8) 0%, rgb(2, 68, 9) 98%);
-  color: white;
-  border: 1px solid white;
-}
-.progress-bar{
-  background: linear-gradient(315deg, rgb(39, 132, 8) 0%, rgb(2, 68, 9) 98%);
-  color: #000;
-  font-size: 1.2em;
-}
-.project-title{
-  padding: 10px;
-}
-.projects{
-}
-project.video-background video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  z-index: -1;
-}
-.video-background2 {
-  position: relative;
-  overflow: hidden;
-}
-.video-background2 video {
-  position: absolute;
-  border-radius: 30px;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 250px;
-  object-fit: cover;
-  z-index: -1;
-}
-.content2 {
-  text-align: center;
-  padding: 50px 0;
-  height: 300px;
+#projects{
+  padding: 0px 0 50px 0;
   
 }
-.content2 h2{
-  text-align: center;
-  padding: 50px 0;
-  width: 300px;
-  border-radius: 20px;
-  background: linear-gradient(315deg, rgb(39, 132, 8) 0%, rgb(2, 68, 9) 98%);
-  margin: 0 auto;
+.card{
+margin-top: 10px;
+object-fit: cover;
+
 }
+.card-body{
 
-
-
+  background: linear-gradient(315deg, rgb(9, 77, 32) 0%, rgb(0, 0, 0) 98%);
+  color: white;
+  border-radius: 10px;
+}
+.btn{
+  background: linear-gradient(315deg, rgb(13, 118, 48) 0%, rgb(0, 0, 0) 98%);
+  color: white;
+  
+}
+.progress-bar{
+  background: linear-gradient(315deg, rgb(29, 222, 94) 0%, rgb(153, 1, 140) 98%);
+  color: #121212;
+}
