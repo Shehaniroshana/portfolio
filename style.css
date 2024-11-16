@@ -1,20 +1,16 @@
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   background: #121212;
   color: white;
   padding: 0;
   margin: 0;
 }
-html {
-  scroll-behavior: smooth;
-}
-
 
 .navbar {
   background: linear-gradient(315deg, rgb(38, 38, 39) 0%, rgb(0, 0, 0) 98%);
 }
 
-.navbar-brand{
+.navbar-brand {
   font-size: 1.6em;
   font-weight: 700;
 }
@@ -37,6 +33,7 @@ html {
 .video-background {
   position: relative;
   overflow: hidden;
+  height: 400px;
 }
 
 .video-background video {
@@ -51,19 +48,19 @@ html {
 
 .content {
   text-align: center;
+  margin-top: 30px;
   padding: 50px 0;
-  height: 400px;
-  transition: transform 0.3s ease;
-
+  height: 100%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.content:hover{
-  transform: scale(1.2);
+.content:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
 
 .content h1 {
   font-size: 3.2em;
-  margin-top: 80px;
 }
 
 .content h4 {
@@ -71,80 +68,83 @@ html {
   margin-bottom: 2rem;
 }
 
-.content img {
-  border-radius: 50%;
-  border: 5px solid #28221a;
-  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
-}
-.text-justify,p {
+.text-justify,
+p {
   text-align: justify;
 }
-
 .img01 {
-  width: 300px;
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
   text-align: center;
   transition: transform 0.3s ease;
 }
 
-.img01:hover{
+.img01:hover {
   transform: scale(1.1);
 }
-#ah4{
+#ah4 {
   font: 2em sans-serif;
   font-weight: 500;
   transition: transform 0.3s ease;
-
 }
-#ah4:hover{
+#ah4:hover {
   transform: scale(1.1);
 }
 
-#projects{
+#projects {
   padding: 0px 0 50px 0;
-  
 }
-.card{
-margin-top: 25px;
-object-fit: cover;
-transition: transform 0.3s ease;
-
+.card {
+  margin-top: 25px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
 }
-.card-body{
-
+.card-body {
   background: linear-gradient(315deg, rgb(9, 77, 32) 0%, rgb(0, 0, 0) 98%);
   color: white;
   border-radius: 10px;
 }
-.btn{
+.btn {
   background: linear-gradient(315deg, rgb(13, 118, 48) 0%, rgb(0, 0, 0) 98%);
   color: white;
-  
 }
-.progress-bar{
-  background: linear-gradient(315deg, rgb(29, 222, 94) 0%, rgb(153, 1, 140) 98%);
+.progress-bar {
+  background: linear-gradient(
+    315deg,
+    rgb(29, 222, 94) 0%,
+    rgb(153, 1, 140) 98%
+  );
   color: #063605;
   font-weight: 600;
 }
-#ppadding{
+#ppadding {
   padding: 0 50px;
 }
 .skill-icon {
-  width: 30px; 
-  height: auto;  
-  margin-right: 10px; 
-  vertical-align: middle; 
+  width: 30px;
+  height: auto;
+  margin-right: 10px;
+  vertical-align: middle;
 }
-.pskill{
+.pskill {
   padding: 0 50px 20px 50px;
 }
 
-.card:hover{
-transform:scale(1.03) ;
+.card:hover {
+  transform: scale(1.03);
 }
-.my-3{
+.my-3 {
   transition: transform 0.4s ease;
 }
-.my-3:hover{
-  transform:scale(1.03) ;
-
+.my-3:hover {
+  transform: scale(1.03);
+}
+.video-background2 {
+  position: relative;
+  overflow: hidden;
+  height: 200px;
+}
+.f {
+  background: linear-gradient(315deg, rgb(38, 38, 39) 0%, rgb(0, 0, 0) 98%);
 }
